@@ -1,0 +1,31 @@
+/*img GIF*/
+.productos {
+	width: 100%;
+
+	.contenedor-gif {
+
+		// width: inherit;
+
+		// position: relative;
+		// display: inline-block;
+		// text-align: center;
+		// background-image: url(/recursos/heria-planche.gif);
+		//background-size: contain; 
+		img {
+			width: 100%;
+		}
+	}
+
+
+    .centrado {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: cadetblue;
+	}
+
+
+
+
+}

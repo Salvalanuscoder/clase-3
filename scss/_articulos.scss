@@ -1,0 +1,77 @@
+/*Estructura de los articulos*/
+/*articulos de index*/
+.imgart img {
+	height: auto;
+	width: 100%;
+
+}
+
+.articulos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 3em;
+	grid-column-gap: 3vw;
+	margin-right: 7vw;
+	margin-left: 7vw;
+}
+
+
+.art {
+
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: grey;
+	justify-content: space-between;
+}
+
+
+
+.txtart {
+	font-family: Source Sans Pro;
+	font-weight: bold;
+	font-size: 18px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	overflow: hidden;
+	margin-bottom: 0.7em;
+	margin-left: 0.6em;
+}
+
+.leermas {
+	margin-left: 0.6em;
+	margin-bottom: 0.5em;
+}
+
+.leermas a {
+	text-decoration: none;
+	color: white;
+	font-family: Source Sans Pro;
+	font-size: 1.6em;
+	transition: color 0.4s linear;
+	transition: 0.3s linear;
+}
+
+.leermas span:nth-child(1) {
+	font-family: Source Sans Pro;
+}
+
+.leermas span:nth-child(2) {
+	font-family: cursive;
+	position: relative;
+	top: 1px;
+	margin-left: 0.1em;
+	transition: margin-left 0.35s ease-in-out;
+}
+
+.art {
+	transition: 0.5s linear;
+}
+
+.art:hover span:nth-child(2) {
+	margin-left: 0.3em;
+}
+
+.art:hover {
+	background-color: lightgrey;
+
+}

@@ -1,0 +1,66 @@
+
+/*pag productos*/
+@media screen and (max-width: 515px){
+    .main-3{
+        width: 100%;
+        
+    }
+}
+/*programas*/
+@media screen and (min-width: 900px){
+	.nav{
+		justify-content: center;
+
+	}
+
+	.bar-btn{
+		display: none;
+	}
+
+	.logout{
+		display: flex;
+	}
+	.nav-links li{
+		display: flex;
+		transition: none;
+		
+	}
+
+	.nav-links li a{
+		color: white;
+		font-size: 1.7em;
+	}
+
+	.nav-links{
+		background: none;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.nav-links .logout-nav{
+		display: none;
+	}
+
+	.listanav a{
+		text-decoration: none;
+	}
+
+}
+
+/*pag contactos*/
+@media (max-width: 450px){
+    form.contacto{
+        width: 100%;
+    }
+    }
+
+    /*resenas*/
+
+    @media screen and ( max-width:750px){
+        .testimonios_contenedor{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    

@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+.header {
+
+	background-color: black;
+}
+/*Estructura header*/
+.header {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+/*index*/
+.main-1 {
+
+	background-color: black;
+	margin-bottom: 0.8em;
+	padding: 1.5em 2em;
+}
+/*programas*/
+.main-2{
+	padding: 1.5em 2em;
+}
+/*productos*/
+.main-3{
+	padding: 1.5em 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+/*contactos*/
+.main-4 {
+    background-color: #31384A;
+    background-size: 100vw 100h;
+    margin: 0;
+    padding: 1.5em 2em;
+}
+body {
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: black;
+}
+/*contiene logo,nav,header*/
+.principal {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: black;
+}
+/*Logo CalistenicX*/
+.logo {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.logo a {
+	color: white;
+	font-size: 3.5em;
+	padding: 1em;
+	font-family: Source Sans Pro;
+}
+/*footer*/
+
+
+/*Estructura footer*/
+.footer {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	background-color: black;
+	padding: 20px 0;
+	grid-row-gap: 1.5em;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+
+.derechos {
+
+	color: white;
+	justify-content: center;
+	text-align: center;
+}
+
+.redes {
+	list-style: none;
+	text-align: center;
+}
+
+#iconos {
+	font-size: 35px;
+	color: white;
+	padding: 3px;
+
+}
+
+.footer a {
+	color: white;
+}
+
+.footer {
+	border-width: 0.5px;
+	border-top: solid;
+	border-color: white;
+}
+
+/*Efectos hipervinculos footer*/
+
+.items-footer li a {
+	transition: 0.5s ease-in-out;
+}
+
+#iconos:hover {
+	color: cyan;
+}
+
+/*img redes sociales*/
+.items-footer .redes img {
+	width: 1.7em;
+	height: 1.7em;
+}
+
+.items-footer .redes .instagram {
+	width: 1.85em;
+	height: 1.85em;
+}
